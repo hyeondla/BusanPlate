@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="BusanPlate">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <dependent-module archiveName="mysql-connector-java-5.1.49.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mysql-connector-java-5.1.49/mysql-connector-java-5.1.49">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activation.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/activation/activation">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="cos.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/cos/cos">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mail-1.4.7.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mail-1.4.7/mail-1.4.7">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="BusanPlate"/>
+        <property name="java-output-path" value="/BusanPlate/build/classes"/>
+    </wb-module>
+</project-modules>
